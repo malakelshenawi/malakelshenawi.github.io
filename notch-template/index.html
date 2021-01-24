@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <style>
+        html {
+            background: url(img/notch-background-min.jpg) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+
+        body {
+            padding: 0;
+            margin: 0;
+            margin: 0px auto;
+        }
+
+        .content {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+
+        .row {
+            display: flex;
+        }
+
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .logo {
+            display: inline;
+        }
+
+        .logo img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .company-logo img {
+            width: 100px;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+
+        .text-structure {
+            color: white;
+            font-size: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+        }
+
+        @media only screen and (max-device-width: 640px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+            .row {
+                display: block;
+
+            }
+
+            .row img {
+                width: 90vw;
+            }
+
+            .company-logo img {
+                width: 50vw;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+
+
+        /* iPhone 6 portrait */
+
+        @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+            .row {
+                display: block;
+
+            }
+
+            .row img {
+                width: 90vw;
+            }
+
+            .company-logo img {
+                width: 50vw;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+
+
+        /* iPhone 6 Plus landscape */
+
+        @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 3) {
+            .row {
+                display: block;
+
+            }
+
+            .row img {
+                width: 90vw;
+            }
+
+            .company-logo img {
+                width: 50vw;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+
+
+        /* iPhone 6 Plus portrait */
+
+        @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 3) {
+            .row {
+                display: block;
+
+            }
+
+            .row img {
+                width: 90vw;
+            }
+
+            .company-logo img {
+                width: 50vw;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="content">
+        <div class="row center">
+            <div class="logo company-logo"><img src="img/abou-ghaly-motors-logo.png" /></div>
+            <div class="logo notchnco-logo"><img src="img/2Artboard 1@4x-8.webp" /></div>
+        </div>
+        <div class="row text-structure">
+            <div>
+                <div>1. Click on the Facebook messenger icon.</div>
+                <div>2. Continue as a gust.</div>
+                <div>3. Enjoy your experience.</div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
